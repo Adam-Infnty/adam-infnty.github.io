@@ -4,11 +4,11 @@
     grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
     height: auto;
     margin: 0;
-    background-color: beige;
+    background-color: black;
     grid-template-areas: 
     "header header header"
-    "nav nav nav"
-    "main main main"
+	"nav nav nav"
+	"main main main"
     "footer footer footer"
     "contact contact contact";
 }
@@ -18,15 +18,91 @@
     margin-left: 10%;
     margin-right:10%;
 }
+body {
+	color: white;
+}
+#Nav {
+	grid-area: nav;
+	background-color: black;
+	display: grid;
+	grid-template-rows: 1fr;
+	grid-template-columns: 1fr;
+	margin: 0;
+	grid-template-areas: "nav";
+	margin-left: 10%;
+	margin-right: 10%;
+}
 
 #mainNav {
-    grid-area: nav;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-    grid-template-rows: 1fr;
-    margin: 0;
-    grid-template-areas: "nav";
-    margin-left: 10%;
-    margin-right: 10%;
+	grid-area: nav;
+	display: grid;
+	grid-template-rows: 1fr;
+	grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+	height: 8vh;
+	margin: 0;
+	grid-template-areas: "aboutMe projects workExp hobbies contact";
+}
+
+#aboutMe {
+	grid-area: aboutMe;
+}
+
+#projects {
+	grid-area: projects;
+}
+
+#workExp {
+	grid-area: workExp;
+}
+
+#hobbies {
+	grid-area: hobbies;
+}
+
+#contact {
+	grid-area: contact;
+}
+
+#mainContent{
+    grid-area: main;
 
 }
+
+#footer{
+    grid-area: footer;
+}
+
+#mainContent {
+	grid-area: main;
+	display: grid;
+	grid-template-rows: 1fr;
+	grid-template-columns: 1fr;
+	height: auto;
+	margin: 0;
+	grid-template-areas: 
+	"cover"
+	"journey"
+	"cv";
+}
+
+#wallpaper {
+	grid-area: cover;
+	width: auto;
+	height: 100vh;
+	background-image: url("https://i.redd.it/7kxq50ipyvca1.jpg");
+	background-size: cover;
+	position: relative;
+}
+#wallpaper h1 {
+	color: white;
+	font-size: 500%;
+	line-height: 60vh;
+	text-align: left;
+	margin-left: 10%;
+	
+
+}
+#journey{
+	grid-area: journey;
+}
+
