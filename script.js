@@ -1,1 +1,1 @@
-alert('you have mail');
+//alert('you have mail');
