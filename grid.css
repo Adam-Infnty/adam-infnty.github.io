@@ -1,28 +1,22 @@
 #container {
     display: grid;
-    grid-template-columns: 20% 1fr 20%;
+    grid-template-columns:1fr;
     grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
-    height: auto;
+    height: 100px;
     margin: 0;
     background-color: black;
     grid-template-areas: 
-    "header header header"
-	"nav nav nav"
+	"nav-1 nav-1 nav-1"
 	"main main main"
     "footer footer footer"
     "contact contact contact";
 }
 
-#header {
-    grid-area: header;
-    margin-left: 10%;
-    margin-right:10%;
-}
 body {
 	color: white;
 }
 #Nav {
-	grid-area: nav;
+	grid-area: nav-1;
 	background-color: black;
 	display: grid;
 	grid-template-rows: 1fr;
@@ -38,7 +32,7 @@ body {
 	display: grid;
 	grid-template-rows: 1fr;
 	grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-	height: 8vh;
+	height: auto;
 	margin: 0;
 	grid-template-areas: "aboutMe projects workExp hobbies contact";
 }
