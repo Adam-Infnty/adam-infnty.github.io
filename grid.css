@@ -2,7 +2,7 @@
     display: grid;
     grid-template-columns:1fr;
     grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
-    height: 100px;
+    height: 200px;
     margin: 0;
     background-color: black;
     grid-template-areas: 
@@ -31,10 +31,10 @@ body {
 	grid-area: nav;
 	display: grid;
 	grid-template-rows: 1fr;
-	grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+	grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
 	height: auto;
 	margin: 0;
-	grid-template-areas: "aboutMe projects workExp hobbies contact";
+	grid-template-areas: "Name Name Name Name Name Name aboutMe projects workExp hobbies contact";
 }
 
 #aboutMe {
@@ -82,7 +82,7 @@ body {
 #wallpaper {
 	grid-area: cover;
 	width: auto;
-	height: 100vh;
+	height: 100%;
 	background-image: url("https://i.redd.it/7kxq50ipyvca1.jpg");
 	background-size: cover;
 	position: relative;
@@ -99,9 +99,9 @@ body {
 #journey{
 	grid-area: journey;
 	display: grid;
-	grid-template-rows: 1fr 1fr 1fr;
+	grid-template-rows: 1fr 1fr;
 	grid-template-columns: 1fr 1fr 1fr;
-	height: auto;
+	height: 10px;
 	margin: 0;
 	grid-template-areas: 
 	"Title  Title  Title"
