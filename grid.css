@@ -104,5 +104,29 @@ body {
 }
 #journey{
 	grid-area: journey;
+	display: grid;
+	grid-template-rows: 1fr 1fr 1fr;
+	grid-template-columns: 1fr 1fr 1fr;
+	height: auto;
+	margin: 0;
+	grid-template-areas: 
+	"Title  Title  Title"
+	"cv  Work-Experience  Projects-s";
 }
-
+#journey h1{
+	grid-area: Title;
+}
+#WorkExperience{
+	grid-area: Work-Experience;
+}
+#CV{
+	grid-area: cv;
+}
+#Projects-s{
+	grid-area: Projects-s;
+}
+#journey img{
+	border-radius: 50%;
+	height: 100%;
+	width: 50%;
+}
