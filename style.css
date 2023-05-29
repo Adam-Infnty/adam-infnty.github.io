@@ -1,3 +1,5 @@
-ul {
-    list-style-type: none;
+#nav ul li a {
+    color: white;
+    list-style: none;
+    text-decoration: none;
 }
