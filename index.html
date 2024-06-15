@@ -1,53 +1,110 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="script.js"></script>
+    <title>Adam Infinity's Website</title>
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="grid.css">
-    <title>Adam Baguma</title>
 </head>
-<body id="container">
-    <header id="header">
-        <!-- logo/profile picture -->
+<body>
+    <header>
+        <nav>
+            <h1>Adam Infinity</h1>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
     </header>
 
-    <!-- navigation bar -->
-    <nav id="nav">
-        <ul id="mainNav">
-            <!-- adam baguma            about me   projects  workexperience   hobbies   contact me-->
-            <li id="name"><a href="#home">Adam Baguma</a></li>
-            <li id="aboutMe"><a href="cv.html">About Me</a></li>
-            <li id="projects"><a href="#projects">Projects</a></li>
-            <li id="workExp"><a href="#work-experience">Work Experience</a></li>
-            <li id="hobbies"><a href="#hobbies">Hobbies</a></li>
-            <li id="contact"><a href="#contact-me">Contact me</a></li>
-        </ul>
-    </nav>
-    <main id="mainContent">
-        <div id="wallpaper"> 
-            <h1>Adam Baguma</h1>
-        </div>
-        <section id="journey">
-            <h1>My Projects</h1>
-            <div id="CV">
-                <img src="data:image/jpeg;base64,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" alt="https://media.istockphoto.com/id/1409329028/vector/no-picture-available-placeholder-thumbnail-icon-illustration-design.jpg?s=612x612&w=0&k=20&c=_zOuJu755g2eEUioiOUdz_mHKJQJn-tDgIAhQzyeKUQ=">
-                <h2>Resume</h2>
+    <main>
+        <section id="home">
+            <div class="slideshow-container">
+                <div class="slide fade">
+                    <img src="files/_20151030_220433.JPG" alt="Image 1">
+                    <div class="text">Adam Infinity</div>
+                </div>
+                <div class="slide fade">
+                    <img src="files/2D820D1B-B819-42D9-B8DC-815D0D47444D.jpg" alt="Image 2">
+                    <div class="text">Adam Infinity</div>
+                </div>
+                <div class="slide fade">
+                    <img src="files/IMG_1520.jpeg" alt="Image 3">
+                    <div class="text">Adam Infinity</div>
+                </div>
+                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                <a class="next" onclick="plusSlides(1)">&#10095;</a>
             </div>
-            <div id="WorkExperience">
-                <img src="https://www.changeboard.com/images/7429/default/work-experience.jpg" alt="https://media.istockphoto.com/id/1409329028/vector/no-picture-available-placeholder-thumbnail-icon-illustration-design.jpg?s=612x612&w=0&k=20&c=_zOuJu755g2eEUioiOUdz_mHKJQJn-tDgIAhQzyeKUQ=">
-                <h2>Work Experience</h2>
+        </section>
+
+        <section id="experience">
+            <div class="card">
+                <div class="card-tabs">
+                    <button class="tab" onclick="showContent(event, 'job1')">Job 1</button>
+                    <button class="tab" onclick="showContent(event, 'job2')">Job 2</button>
+                </div>
+                <div id="job1" class="tab-content">
+                    <h2>Job 1</h2>
+                    <p>Details about job 1...</p>
+                </div>
+                <div id="job2" class="tab-content">
+                    <h2>Job 2</h2>
+                    <p>Details about job 2...</p>
+                </div>
             </div>
-            <div id="Projects-s">
-                <img src="https://ilwllc.com/wp-content/uploads/2017/04/ProjectManagement-1.jpg" alt="https://media.istockphoto.com/id/1409329028/vector/no-picture-available-placeholder-thumbnail-icon-illustration-design.jpg?s=612x612&w=0&k=20&c=_zOuJu755g2eEUioiOUdz_mHKJQJn-tDgIAhQzyeKUQ=">
-                <h2>Projects</h2>
+        </section>
+
+        <section id="projects">
+            <div class="card">
+                <div class="card-tabs">
+                    <button class="tab" onclick="showContent(event, 'project1')">Project 1</button>
+                    <button class="tab" onclick="showContent(event, 'project2')">Project 2</button>
+                </div>
+                <div id="project1" class="tab-content">
+                    <h2>Project 1</h2>
+                    <p>Details about project 1...</p>
+                </div>
+                <div id="project2" class="tab-content">
+                    <h2>Project 2</h2>
+                    <p>Details about project 2...</p>
+                </div>
             </div>
+        </section>
+
+        <section id="about">
+            <div class="card">
+                <div class="card-tabs">
+                    <button class="tab" onclick="showContent(event, 'about1')">About Me</button>
+                    <button class="tab" onclick="showContent(event, 'about2')">More Info</button>
+                </div>
+                <div id="about1" class="tab-content">
+                    <h2>About Me</h2>
+                    <p>Details about me...</p>
+                </div>
+                <div id="about2" class="tab-content">
+                    <h2>More Info</h2>
+                    <p>Additional information...</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact">
+            <form id="contact-form">
+                <h2>Contact Me</h2>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+                <button type="submit">Send</button>
+            </form>
         </section>
     </main>
 
-    <footer id="footer">
-
-    </footer>
+    <script src="script.js"></script>
 </body>
 </html>
