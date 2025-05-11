@@ -116,7 +116,7 @@
     /* background: linear-gradient(to bottom right, #0a192f, #112240); */
   }
   
-  .main-content section {
+  .main-content section .about {
     max-width: auto;
     margin-bottom: 4rem;
     padding-left: 30rem;
