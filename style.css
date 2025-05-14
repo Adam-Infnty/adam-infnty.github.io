@@ -7,7 +7,8 @@
     --accent: #64ffda;
     --font-sans: 'Inter', sans-serif;
     --sidebar-width: 33.33rem;
-    margin-left: 30rem;
+    margin-left: 32rem;
+    /* margin-right: 7rem; */
   }
   
   * {
@@ -38,6 +39,7 @@
     flex-direction: column;
     justify-content: space-between;
     border-right: 1px;
+    /* margin-left: 7rem; */
   }
   
   .intro h1 {
