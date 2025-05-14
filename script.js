@@ -136,7 +136,7 @@ document.addEventListener("DOMContentLoaded", () => {
     sidebar.style.top = "0";
     sidebar.style.left = "0";
     sidebar.style.height = "100vh";
-    sidebar.style.width = "20vw";
+    sidebar.style.width = "30rem";
     sidebar.style.overflow = "auto";
   }
   
