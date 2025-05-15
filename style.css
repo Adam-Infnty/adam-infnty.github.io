@@ -92,12 +92,14 @@ body {
   font-size: 1rem;
   color: var(--muted);
   margin-top: 0.25rem;
+  margin-left: 2rem;
 }
 
 .intro p {
   font-size: 0.875rem;
   color: var(--muted);
-  margin-top: 1rem;
+  margin-top: 0.2rem;
+  margin-left: 2rem;
 }
 
 /* Social Icons */

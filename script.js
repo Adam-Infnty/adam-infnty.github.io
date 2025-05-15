@@ -26,14 +26,14 @@ document.addEventListener("DOMContentLoaded", () => {
     const moreExperience = [
       {
         duration: "2022 — 2024",
-        title: "Frontend Developer · Freelance",
-        description: "Built websites and web apps for startups and small businesses. Focused on responsive design, accessibility, and performance optimization.",
+        title: "Software Developer, Wigan Council (Internship) · Wigan",
+        description: "Implementing an API system to wigan councils existing ‘Jadu’ system to enable residents in the borough to book waste collection slots as part of wigans mission to eliminate fly tipping and excess waste accumulation.</br>• Spearheaded meetings of over 10 professionals from the relevant departments as well as the directors of wigan council to determine any complications that may arise when developing the integration.</br>• Acted as a middleman between the different departments, highlighting the potential complications of the system and creating realistic expectations.",
         tech: ["HTML", "CSS", "JavaScript", "Vue"]
       },
       {
         duration: "2020 — 2022",
-        title: "Junior Developer · Tech Studio",
-        description: "Worked on a variety of internal tools and external client projects. Gained experience with agile workflows and component-based development.",
+        title: "Restaurant Manager, HMS Hosts · Manchester",
+        description: "Working alongside a motivated and effective team to provide catering to over 30% of the airport’s customer traffic within terminal 2 a day, in the Amber Ale house.</br>Responsibilities;</br>• Regulated stock levels within the restaurant to ensure the customers’ needs are always met.</br>• Handling cash payments and making sure the cash float is never below or above the expected amount.</br>• Delegating tasks at the end of the shift to ensure all the necessary jobs are completed, and the restaurant is in excellent condition for the morning team to set up.</br>• Resolving any customer complaints, I can whilst communicating those that require a manager to the necessary person.",
         tech: ["React", "Redux", "Sass", "Git"]
       }
     ];
@@ -66,6 +66,15 @@ document.addEventListener("DOMContentLoaded", () => {
         description: [
           "Designed and developed a chatbot using modern web technologies.",
           "Integrated AI features to enhance interaction quality and automation."
+        ],
+        tech: ["Next.js", "Tailwind CSS", "Vercel"],
+        img: "https://files.realpython.com/media/Chatterbot-Build-a-Chatbot-With-Python_Watermarked.07a26197ef70.jpg"
+      },
+      {
+        title: "Spotify Wrapped",
+        description: [
+          "Designed and developed a personal portfolio to showcase professional experience and projects.",
+          "Emphasized responsive design and clean UI with Tailwind CSS."
         ],
         tech: ["Next.js", "Tailwind CSS", "Vercel"],
         img: "https://files.realpython.com/media/Chatterbot-Build-a-Chatbot-With-Python_Watermarked.07a26197ef70.jpg"
