@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", () => {
-  // Mouse hover effect for interactive elements
+  // Hover effect
   const hoverTargets = document.querySelectorAll("button, a, .section-nav li, .social-icons img, .experience-item");
   hoverTargets.forEach(el => {
     el.addEventListener("mouseenter", () => el.classList.add("hover-effect"));
@@ -14,11 +14,33 @@ document.addEventListener("DOMContentLoaded", () => {
     cursorGlow.style.transform = `translate(${e.clientX - 350}px, ${e.clientY - 350}px)`;
   });
 
-  // Lock sidebar in place
+  // Fix sidebar
   const sidebar = document.querySelector(".sidebar");
-  if (sidebar) {
-    sidebar.classList.add("fixed-sidebar");
+  if (sidebar) sidebar.classList.add("fixed-sidebar");
+
+  // Hamburger menu toggle
+  const toggleBtn = document.getElementById("menu-toggle");
+  const mobileMenu = document.getElementById("mobile-menu");
+
+  if (toggleBtn && mobileMenu) {
+    toggleBtn.addEventListener("click", () => {
+      mobileMenu.classList.toggle("hidden");
+    });
   }
+
+  // Smooth scroll for nav links
+  document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+    anchor.addEventListener("click", function (e) {
+      e.preventDefault();
+      const target = document.querySelector(this.getAttribute("href"));
+      if (target) {
+        target.scrollIntoView({ behavior: "smooth" });
+        if (!mobileMenu.classList.contains("hidden")) {
+          mobileMenu.classList.add("hidden");
+        }
+      }
+    });
+  });
 
   // Dynamic Experience Section
   const experienceSection = document.querySelector(".experience");
@@ -56,9 +78,6 @@ document.addEventListener("DOMContentLoaded", () => {
   if (mainContent) {
     const projectsSection = document.createElement("section");
     projectsSection.className = "projects";
-    const heading = document.createElement("h2");
-    heading.textContent = "What I've Worked On...";
-    projectsSection.appendChild(heading);
 
     const projectData = [
       {
