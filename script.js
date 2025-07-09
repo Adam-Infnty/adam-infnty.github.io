@@ -1,6 +1,6 @@
 document.addEventListener("DOMContentLoaded", () => {
   // Hover effect
-  const hoverTargets = document.querySelectorAll("button, a, .section-nav li, .social-icons img, .experience-item");
+  const hoverTargets = document.querySelectorAll("button, .section-nav li, .social-icons img, .experience-item");
   hoverTargets.forEach(el => {
     el.addEventListener("mouseenter", () => el.classList.add("hover-effect"));
     el.addEventListener("mouseleave", () => el.classList.remove("hover-effect"));
@@ -87,7 +87,7 @@ document.addEventListener("DOMContentLoaded", () => {
           "Integrated AI features to enhance interaction quality and automation."
         ],
         tech: ["Python", "Tailwind CSS", "html5", "flask", "Javascript", "Ai"],
-        img: "https://files.realpython.com/media/Chatterbot-Build-a-Chatbot-With-Python_Watermarked.07a26197ef70.jpg"
+        img: "https://raw.githubusercontent.com/Adam-Infnty/chatbot/refs/heads/testing/images/logo.png?token=GHSAT0AAAAAADG7AUVRLQR6HEIJGBVLJ6IY2DOZCNQ"
       },
       {
         title: "Spotify Wrapped",
@@ -96,7 +96,7 @@ document.addEventListener("DOMContentLoaded", () => {
           "Emphasized responsive design and clean UI with Tailwind CSS."
         ],
         tech: ["Flask", "Tailwind CSS", "HTML", "Javascript", "Python"],
-        img: "https://files.realpython.com/media/Chatterbot-Build-a-Chatbot-With-Python_Watermarked.07a26197ef70.jpg"
+        img: "https://sm.pcmag.com/pcmag_uk/news/s/spotify-wr/spotify-wrapped-2023-how-to-see-the-songs-artists-you-listen_u92z.png"
       },
       {
         title: "Portfolio Website",
@@ -105,7 +105,7 @@ document.addEventListener("DOMContentLoaded", () => {
           "Emphasized responsive design and clean UI with Tailwind CSS."
         ],
         tech: ["Next.js", "Tailwind CSS", "HTML", "Javascript"],
-        img: "https://files.realpython.com/media/Chatterbot-Build-a-Chatbot-With-Python_Watermarked.07a26197ef70.jpg"
+        img: "https://static.wixstatic.com/media/c7e19c_a21de9bb624c4c8398fd35a4e2687ff9~mv2.png/v1/fill/w_980,h_560,al_c,q_90,usm_0.66_1.00_0.01,enc_auto/c7e19c_a21de9bb624c4c8398fd35a4e2687ff9~mv2.png"
       }
     ];
 
