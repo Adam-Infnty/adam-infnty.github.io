@@ -12,15 +12,15 @@
   <!-- Mobile Header -->
   <header class="mobile-header">
     <h1>Adam Baguma</h1>
-    <button class="menu-btn" aria-label="Toggle navigation">☰</button>
+    <button id="menu-toggle" class="menu-btn" aria-label="Toggle navigation">☰</button>
   </header>
 
-  <!-- Mobile Navigation (hidden by default) -->
-  <nav class="mobile-menu hidden">
+  <!-- Mobile Navigation -->
+  <nav id="mobile-menu" class="mobile-menu hidden">
     <ul>
-      <li class="active">About</li>
-      <li>Experience</li>
-      <li>Projects</li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#experience">Experience</a></li>
+      <li><a href="#projects">Projects</a></li>
     </ul>
   </nav>
 
@@ -33,9 +33,9 @@
       </div>
       <nav class="section-nav">
         <ul>
-          <li class="active">About</li>
-          <li>Experience</li>
-          <li>Projects</li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#projects">Projects</a></li>
         </ul>
       </nav>
       <div class="social-icons">
@@ -48,7 +48,7 @@
     </aside>
 
     <main class="main-content">
-      <section class="about">
+      <section id="about" class="about">
         <p>
           I'm a Computer science BSc (Hons) Graduate, with hands-on experience working in industry as a <strong>Python Developer</strong>
           Eager to deepen my understanding of industry standards, best coding practices, and emerging technologies in the fast-paced world of tech.
@@ -65,7 +65,7 @@
         </p>
       </section>
 
-      <section class="experience">
+      <section id="experience" class="experience">
         <div class="experience-item">
           <p class="duration">2023 — 2024</p>
           <div>
@@ -92,6 +92,10 @@
         </div>
       </section>
 
+      <section id="projects" class="projects">
+        <h2>What I've Worked On...</h2>
+        <!-- JS will inject projects here -->
+      </section>
       <!-- Uncomment for project section -->
       <!--
       <section class="projects">
