@@ -87,16 +87,16 @@ document.addEventListener("DOMContentLoaded", () => {
           "Integrated AI features to enhance interaction quality and automation."
         ],
         tech: ["Python", "Tailwind CSS", "html5", "flask", "Javascript", "Ai"],
-        img: "https://github.com/Adam-Infnty/chatbot/blob/testing/images/logo.png?raw=true"
+        img: "images/chatbot.png"
       },
       {
         title: "Spotify Wrapped",
         description: [
-          "Designed and developed a personal portfolio to showcase professional experience and projects.",
-          "Emphasized responsive design and clean UI with Tailwind CSS."
+          "Designed and developed a personalized take on Spotify Wrapped, leveraging the Spotipy library to interact with the Spotify API and analyze user listening data.",
+          "Built and deployed the application using Flask, creating a lightweight, responsive web experience hosted on a custom server."
         ],
         tech: ["Flask", "Tailwind CSS", "HTML", "Javascript", "Python"],
-        img: "https://raw.githubusercontent.com/Adam-Infnty/chatbot/refs/heads/testing/images/logo.png?token=GHSAT0AAAAAADG7AUVRNNGQS3SU3CIU5VCG2DP2HWA"
+        img: "https://sm.pcmag.com/pcmag_uk/news/s/spotify-wr/spotify-wrapped-2023-how-to-see-the-songs-artists-you-listen_u92z.png"
       },
       {
         title: "Portfolio Website",
