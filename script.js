@@ -87,7 +87,7 @@ document.addEventListener("DOMContentLoaded", () => {
           "Integrated AI features to enhance interaction quality and automation."
         ],
         tech: ["Python", "Tailwind CSS", "html5", "flask", "Javascript", "Ai"],
-        img: "https://raw.githubusercontent.com/Adam-Infnty/chatbot/refs/heads/testing/images/logo.png?token=GHSAT0AAAAAADG7AUVRLQR6HEIJGBVLJ6IY2DOZCNQ"
+        img: "https://github.com/Adam-Infnty/chatbot/blob/testing/images/logo.png?raw=true"
       },
       {
         title: "Spotify Wrapped",
@@ -96,7 +96,7 @@ document.addEventListener("DOMContentLoaded", () => {
           "Emphasized responsive design and clean UI with Tailwind CSS."
         ],
         tech: ["Flask", "Tailwind CSS", "HTML", "Javascript", "Python"],
-        img: "https://sm.pcmag.com/pcmag_uk/news/s/spotify-wr/spotify-wrapped-2023-how-to-see-the-songs-artists-you-listen_u92z.png"
+        img: "https://raw.githubusercontent.com/Adam-Infnty/chatbot/refs/heads/testing/images/logo.png?token=GHSAT0AAAAAADG7AUVRNNGQS3SU3CIU5VCG2DP2HWA"
       },
       {
         title: "Portfolio Website",
