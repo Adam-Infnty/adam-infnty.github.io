@@ -55,7 +55,7 @@ document.addEventListener("DOMContentLoaded", () => {
       {
         duration: "2020 — 2022",
         title: "Restaurant Manager, HMS Hosts · Manchester",
-        description: "Working alongside a motivated and effective team to provide catering to over 30% of the airport’s customer traffic within terminal 2 a day, in the Amber Ale house.</br>Responsibilities;</br>• Regulated stock levels within the restaurant to ensure the customers’ needs are always met.</br>• Handling cash payments and making sure the cash float is never below or above the expected amount.</br>• Delegating tasks at the end of the shift to ensure all the necessary jobs are completed, and the restaurant is in excellent condition for the morning team to set up.</br>• Resolving any customer complaints, I can whilst communicating those that require a manager to the necessary person.",
+        description: "Worked alongside a **motivated and effective team** to provide catering to over **30% of Manchester Airport’s Terminal 2 traffic** daily at the **Amber Ale House**.<br><br><strong>Responsibilities:</strong><br>• Regulated **stock levels** within the restaurant to ensure the customers’ needs were always met.<br>• Handled **cash payments**, ensuring the **cash float** remained accurate.<br>• **Delegated tasks** at the end of shifts to ensure all jobs were completed and the restaurant was ready for the morning team.<br>• Resolved **customer complaints** where possible, and escalated issues to the **appropriate manager** when needed.",
         tech: ["n/a"]
       }
     ];
