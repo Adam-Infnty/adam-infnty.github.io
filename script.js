@@ -1,11 +1,4 @@
 document.addEventListener("DOMContentLoaded", () => {
-  // Hover effect
-  const hoverTargets = document.querySelectorAll("button, .section-nav li, .social-icons img, .experience-item");
-  hoverTargets.forEach(el => {
-    el.addEventListener("mouseenter", () => el.classList.add("hover-effect"));
-    el.addEventListener("mouseleave", () => el.classList.remove("hover-effect"));
-  });
-
   // Cursor glow
   const cursorGlow = document.createElement("div");
   cursorGlow.className = "cursor-glow";
@@ -41,7 +34,7 @@ document.addEventListener("DOMContentLoaded", () => {
     });
   });
 
-  // Contact form submission
+  // Contact form mailto
   const contactForm = document.getElementById("contact-form");
   if (contactForm) {
     contactForm.addEventListener("submit", (e) => {
@@ -56,17 +49,30 @@ document.addEventListener("DOMContentLoaded", () => {
     });
   }
 
-  // Load content from website.txt
+  // Fetch and inject content from index.txt
   fetch("content/index.txt")
     .then((res) => res.text())
     .then((text) => {
       const entries = parseContentFile(text);
       injectContent(entries);
+      applyHoverEffects(); // <- apply hover after injecting content
     })
     .catch((err) => console.error("Failed to load content:", err));
+
+  // Initial hover effect for static elements
+  applyHoverEffects();
 });
 
-// Parser: Converts text file into JS objects
+// Hover effect handler
+function applyHoverEffects() {
+  const hoverTargets = document.querySelectorAll("button, .contact-section, .social-icons img, .experience-item, .project-item");
+  hoverTargets.forEach(el => {
+    el.addEventListener("mouseenter", () => el.classList.add("hover-effect"));
+    el.addEventListener("mouseleave", () => el.classList.remove("hover-effect"));
+  });
+}
+
+// Text file parser
 function parseContentFile(text) {
   const lines = text.split("\n");
   const entries = [];
@@ -92,7 +98,7 @@ function parseContentFile(text) {
   return entries;
 }
 
-// Inject content into the page
+// Inject content into the DOM
 function injectContent(entries) {
   const aboutContainer = document.querySelector("#about");
   const experienceContainer = document.querySelector("#experience");

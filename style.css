@@ -373,3 +373,18 @@ body {
     padding: 1.5rem;
   }
 }
+
+/* Highlight nav text on hover */
+.section-nav li span,
+.mobile-menu li span {
+  display: inline-block;
+  color: var(--muted);
+  transition: color 0.3s ease, transform 0.3s ease;
+}
+
+/* Hover effect only on the text */
+.section-nav li span:hover,
+.mobile-menu li span:hover {
+  color: white;
+  transform: scale(1.05);
+}
