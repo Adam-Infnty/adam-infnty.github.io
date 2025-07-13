@@ -57,7 +57,7 @@ document.addEventListener("DOMContentLoaded", () => {
   }
 
   // Load content from website.txt
-  fetch("content/website.txt")
+  fetch("content/index.txt")
     .then((res) => res.text())
     .then((text) => {
       const entries = parseContentFile(text);

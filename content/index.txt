@@ -1,0 +1,41 @@
+[about]
+content: I'm a Computer science BSc (Hons) Graduate, with hands-on experience working in industry as a Python Developer. Eager to deepen my understanding of industry standards, best coding practices, and emerging technologies in the fast-paced world of tech. I have an arsenal of projects under my belt and a passion to create! I'm currently working on a sentiment analysis tool that leverages AI to analyse Google Maps reviews. In the past, I've had the opportunity to develop software across a variety of settings from Cyber Security Organisations to Government Councils. In my spare time, I’m usually climbing, gaming, and shooting some hoops.
+
+[experience]
+title: Software Engineer, National Crime Agency (NCA) · London
+duration: 2023 — 2024
+content: Developed a range of tools for NCA officers using Python, AWS Lambda, DynamoDB, S3, EC2, VPC, Terraform, CloudWatch and GitLab in an Agile environment. Led retros and team meetings, conducted research spikes, managed project timelines, collaborated cross-functionally, resolved cloud/software issues, and implemented cloud solutions with Terraform.
+tags: JavaScript, TypeScript, React, Storybook
+
+[experience]
+title: Software Developer, Wigan Council (Internship) · Wigan
+duration: 2022 — 2024
+content: Implemented an API system for Wigan Council’s Jadu platform to help residents book waste collection. Led meetings with directors, aligned cross-department goals, and handled technical communication.
+tags: HTML, CSS, JavaScript, Vue
+
+[experience]
+title: Restaurant Shift Manager, HMS Hosts · Manchester
+duration: 2020 — 2022
+content: Worked with a motivated team to serve 30% of Terminal 2's daily customer traffic at Manchester Airport. Managed stock levels, handled cash payments, delegated tasks, and resolved customer issues.
+tags: n/a
+
+[project]
+title: AI Powered Chatbot
+image: images/chatbot.png
+tags: Python, Tailwind CSS, HTML5, Flask, JavaScript, AI
+content: Designed and developed a chatbot using modern web technologies. Integrated AI features to enhance interaction quality and automation.
+
+[project]
+title: Spotify Wrapped
+image: https://sm.pcmag.com/pcmag_uk/news/s/spotify-wr/spotify-wrapped-2023-how-to-see-the-songs-artists-you-listen_u92z.png
+tags: Flask, Tailwind CSS, HTML, JavaScript, Python
+content: Designed and developed a personalized take on Spotify Wrapped using the Spotify API and Flask.
+
+[project]
+title: Portfolio Website
+image: images/portfolio site.png
+tags: Next.js, Tailwind CSS, HTML, JavaScript
+content: Designed and developed a personal portfolio to showcase professional experience and projects.
+
+[contact]
+email: as.baguma@gmail.com
