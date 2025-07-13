@@ -1,21 +1,41 @@
 [about]
-content: I'm a Computer Science BSc (Hons) graduate with experience in Python, AWS, and more. I’m currently building a sentiment analysis tool that leverages AI on Google Maps reviews. I’ve worked in cyber security and government councils. In my spare time, I climb, game, and shoot hoops.
+content: I'm a Computer science BSc (Hons) Graduate, with hands-on experience working in industry as a <strong>Python Developer</strong>
+          Eager to deepen my understanding of industry standards, best coding practices, and emerging technologies in the fast-paced world of tech.
+          I have an arsenal of project under my belt and have a passion to create! I'm <strong>currently working on a sentiment analysis tool</strong> that leveredges AI to analyse google maps reviews.
+          But feel free to check out my other projects below.
+          In the past, I've had the opportunity to develop software across a variety of settings from <strong>Cyber Security Organisations</strong> to <strong>Government Councils</strong>.
+          In my spare time, I’m usually climbing, gaming, and shooting some hoops
 
 [experience]
-title: Software Engineer, National Crime Agency (NCA)
+title: Software Engineer, National Crime Agency (NCA) · London
 duration: 2023 — 2024
-content: Developed internal tools using Python, AWS Lambda, DynamoDB, Terraform and more. Led retros, resolved cloud issues, and collaborated cross-functionally.
-tags: Python, AWS, Terraform, Agile
+content: Developed a range of tools for NCA officers using Python, AWS Lambda, DynamoDB, S3, EC2, VPC, Terraform, CloudWatch and GitLab in an Agile environment.
+            Responsibilities;
+              • Often Leading retros and Team meetings within the organization to ensure deadlines were met and the necessary support was given to those that needed it.
+              • Conducted project spikes to research and propose innovative solutions for multiple projects.
+              • Time Management: Managed time effectively to swiftly complete project tickets.
+              • Collaborated with cross-functional teams, including designers, product managers, and
+              quality assurance, to ensure seamless project execution.
+              • Troubleshoot and resolve complex cloud, software, and digital forensics issues.
+              • Implement cloud-based solutions using AWS (EC2, Lambda, S3, RDS) and Infrastructure as Code (Terraform, CloudFormation).
+
+tags: Python, AWS, Terraform, Agile, GitLab, VPC, EC2, S3, DynamoDB, Lambda
 
 [experience]
-title: Software Developer Intern, Wigan Council
+title: Software Developer Intern, Wigan Council · Wigan
 duration: 2022 — 2024
-content: Built APIs to integrate with Wigan’s Jadu system. Spearheaded meetings with directors, aligned cross-department goals, and reduced waste issues.
+content: Implementing an API system to wigan councils existing ‘Jadu’ system to enable residents in the borough to book waste collection slots as part of wigans mission to eliminate fly tipping and excess waste accumulation.</br>• Spearheaded meetings of over 10 professionals from the relevant departments as well as the directors of wigan council to determine any complications that may arise when developing the integration.</br>• Acted as a middleman between the different departments, highlighting the potential complications of the system and creating realistic expectations.
+tags: JavaScript, Vue, HTML, CSS
+
+[experience]
+title: Restaurant Shift Manager, HMS Hosts · Manchester
+duration: 2020 — 2023
+content: Worked alongside a <b>motivated and effective team</b> to provide catering to over <b>30% of Manchester Airport’s Terminal 2 traffic</b> daily at the <b>Amber Ale House</b>.<br><br><strong>Responsibilities:</strong><br>• Regulated <b>stock levels</b> within the restaurant to ensure the customers’ needs were always met.<br>• Handled <b>cash payments</b>, ensuring the <b>cash float</b> remained accurate.<br>• <b>Delegated tasks</b> at the end of shifts to ensure all jobs were completed and the restaurant was ready for the morning team.<br>• Resolved <b>customer complaints</b> where possible, and escalated issues when needed.
 tags: JavaScript, Vue, HTML, CSS
 
 [project]
 title: AI Chatbot
-image: https://example.com/images/chatbot.png
+image: chatbot.png
 tags: Next.js, Tailwind, GPT
 content: Designed and deployed a chatbot with modern web tech and AI integration.
 
