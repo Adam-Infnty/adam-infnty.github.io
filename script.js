@@ -14,14 +14,13 @@ document.addEventListener("DOMContentLoaded", () => {
     cursorGlow.style.transform = `translate(${e.clientX - 350}px, ${e.clientY - 350}px)`;
   });
 
-  // Fix sidebar
+  // Fixed sidebar
   const sidebar = document.querySelector(".sidebar");
   if (sidebar) sidebar.classList.add("fixed-sidebar");
 
   // Hamburger menu toggle
   const toggleBtn = document.getElementById("menu-toggle");
   const mobileMenu = document.getElementById("mobile-menu");
-
   if (toggleBtn && mobileMenu) {
     toggleBtn.addEventListener("click", () => {
       mobileMenu.classList.toggle("hidden");
@@ -42,118 +41,104 @@ document.addEventListener("DOMContentLoaded", () => {
     });
   });
 
-  // Dynamic Experience Section
-  const experienceSection = document.querySelector(".experience");
-  if (experienceSection) {
-    const moreExperience = [
-      {
-        duration: "2022 — 2024",
-        title: "Software Developer, Wigan Council (Internship) · Wigan",
-        description: "Implementing an API system to wigan councils existing ‘Jadu’ system to enable residents in the borough to book waste collection slots as part of wigans mission to eliminate fly tipping and excess waste accumulation.</br>• Spearheaded meetings of over 10 professionals from the relevant departments as well as the directors of wigan council to determine any complications that may arise when developing the integration.</br>• Acted as a middleman between the different departments, highlighting the potential complications of the system and creating realistic expectations.",
-        tech: ["JAVA", "C++", "JavaScript", "Vue"]
-      },
-      {
-        duration: "2020 — 2022",
-        title: "Restaurant Manager, HMS Hosts · Manchester",
-        description: "Worked alongside a <b>motivated and effective team</b> to provide catering to over <b>30% of Manchester Airport’s Terminal 2 traffic</b> daily at the <b>Amber Ale House</b>.<br><br><strong>Responsibilities:</strong><br>• Regulated <b>stock levels</b> within the restaurant to ensure the customers’ needs were always met.<br>• Handled <b>cash payments</b>, ensuring the <b>cash float</b> remained accurate.<br>• <b>Delegated tasks</b> at the end of shifts to ensure all jobs were completed and the restaurant was ready for the morning team.<br>• Resolved <b>customer complaints</b> where possible, and escalated issues when needed.",
-        tech: ["n/a"]
-      }
-    ];
-
-    moreExperience.forEach(job => {
-      const item = document.createElement("div");
-      item.className = "experience-item hoverable";
-      item.innerHTML = `
-        <div class="duration">${job.duration}</div>
-        <h3>${job.title}</h3>
-        <p>${job.description}</p>
-        <div class="tech-tags">${job.tech.map(t => `<span>${t}</span>`).join(" ")}</div>
-      `;
-      experienceSection.appendChild(item);
+  // Contact form submission
+  const contactForm = document.getElementById("contact-form");
+  if (contactForm) {
+    contactForm.addEventListener("submit", (e) => {
+      e.preventDefault();
+      const name = document.getElementById("name").value.trim();
+      const email = document.getElementById("email").value.trim();
+      const message = document.getElementById("message").value.trim();
+      const mailtoLink = `mailto:as.baguma@gmail.com?subject=Contact from ${encodeURIComponent(name)}&body=${encodeURIComponent(
+        `Name: ${name}\nEmail: ${email}\n\n${message}`
+      )}`;
+      window.location.href = mailtoLink;
     });
   }
 
-  // Dynamic Projects Section
-  const mainContent = document.querySelector(".main-content");
-  if (mainContent) {
-    const projectsSection = document.createElement("section");
-    projectsSection.className = "projects";
-
-    const projectData = [
-      {
-        title: "AI Powered Chatbot",
-        description: [
-          "Designed and developed a chatbot using modern web technologies.",
-          "Integrated AI features to enhance interaction quality and automation."
-        ],
-        tech: ["Python", "Tailwind CSS", "html5", "flask", "Javascript", "Ai"],
-        img: "images/chatbot.png"
-      },
-      {
-        title: "Spotify Wrapped",
-        description: [
-          "Designed and developed a personalized take on Spotify Wrapped, leveraging the Spotipy library to interact with the Spotify API and analyze user listening data.",
-          "Built and deployed the application using Flask, creating a lightweight, responsive web experience hosted on a custom server."
-        ],
-        tech: ["Flask", "Tailwind CSS", "HTML", "Javascript", "Python"],
-        img: "https://sm.pcmag.com/pcmag_uk/news/s/spotify-wr/spotify-wrapped-2023-how-to-see-the-songs-artists-you-listen_u92z.png"
-      },
-      {
-        title: "Portfolio Website",
-        description: [
-          "Designed and developed a personal portfolio to showcase professional experience and projects.",
-          "Emphasized responsive design and clean UI with Tailwind CSS."
-        ],
-        tech: ["Next.js", "Tailwind CSS", "HTML", "Javascript"],
-        img: "https://static.wixstatic.com/media/c7e19c_a21de9bb624c4c8398fd35a4e2687ff9~mv2.png/v1/fill/w_980,h_560,al_c,q_90,usm_0.66_1.00_0.01,enc_auto/c7e19c_a21de9bb624c4c8398fd35a4e2687ff9~mv2.png"
-      }
-    ];
-
-    projectData.forEach(project => {
-      const item = document.createElement("div");
-      item.className = "project-item hoverable";
-
-      const left = document.createElement("div");
-      left.className = "project-image-block";
-      const img = document.createElement("img");
-      img.src = project.img;
-      img.alt = project.title;
-      const techTags = document.createElement("div");
-      techTags.className = "tech-tags";
-      techTags.innerHTML = project.tech.map(t => `<span>${t}</span>`).join("");
-      left.appendChild(img);
-      left.appendChild(techTags);
-
-      const right = document.createElement("div");
-      right.className = "project-content";
-      const title = document.createElement("h3");
-      title.textContent = project.title;
-      const descriptionContainer = document.createElement("div");
-      project.description.forEach(line => {
-        const p = document.createElement("p");
-        p.textContent = `• ${line}`;
-        descriptionContainer.appendChild(p);
-      });
-
-      right.appendChild(title);
-      right.appendChild(descriptionContainer);
-      item.appendChild(left);
-      item.appendChild(right);
-      projectsSection.appendChild(item);
-    });
-
-    mainContent.appendChild(projectsSection);
-  }
-
+  // Load content from website.txt
+  fetch("content/website.txt")
+    .then((res) => res.text())
+    .then((text) => {
+      const entries = parseContentFile(text);
+      injectContent(entries);
+    })
+    .catch((err) => console.error("Failed to load content:", err));
 });
 
-document.addEventListener("DOMContentLoaded", () => {
-  const toggleBtn = document.getElementById("menu-toggle");
-  const mobileMenu = document.getElementById("mobile-menu");
+// Parser: Converts text file into JS objects
+function parseContentFile(text) {
+  const lines = text.split("\n");
+  const entries = [];
+  let current = null;
 
-  if (toggleBtn && mobileMenu) {
-    toggleBtn.addEventListener("click", () => {
-      mobileMenu.classList.toggle("hidden");
-    });
-  }
-});
+  lines.forEach((line) => {
+    line = line.trim();
+    if (line.startsWith("[") && line.endsWith("]")) {
+      if (current) entries.push(current);
+      current = { section: line.slice(1, -1), tags: [] };
+    } else if (line.includes(":")) {
+      const [key, ...rest] = line.split(":");
+      const value = rest.join(":").trim();
+      if (key === "tags") {
+        current[key] = value.split(",").map((s) => s.trim());
+      } else {
+        current[key] = value;
+      }
+    }
+  });
+
+  if (current) entries.push(current);
+  return entries;
+}
+
+// Inject content into the page
+function injectContent(entries) {
+  const aboutContainer = document.querySelector("#about");
+  const experienceContainer = document.querySelector("#experience");
+  const projectsContainer = document.querySelector("#projects");
+
+  entries.forEach((entry) => {
+    switch (entry.section) {
+      case "about":
+        if (aboutContainer) {
+          aboutContainer.innerHTML += `<p>${entry.content}</p>`;
+        }
+        break;
+
+      case "experience":
+        if (experienceContainer) {
+          const item = document.createElement("div");
+          item.className = "experience-item";
+          item.innerHTML = `
+            <p class="duration">${entry.duration}</p>
+            <div>
+              <h3>${entry.title}</h3>
+              <p>${entry.content}</p>
+              <div class="tech-tags">${entry.tags.map((t) => `<span>${t}</span>`).join("")}</div>
+            </div>
+          `;
+          experienceContainer.appendChild(item);
+        }
+        break;
+
+      case "project":
+        if (projectsContainer) {
+          const item = document.createElement("div");
+          item.className = "project-item";
+          item.innerHTML = `
+            <div class="project-image-block">
+              <img src="${entry.image}" alt="${entry.title}" />
+              <div class="tech-tags">${entry.tags.map((t) => `<span>${t}</span>`).join("")}</div>
+            </div>
+            <div class="project-content">
+              <h3>${entry.title}</h3>
+              <p>${entry.content}</p>
+            </div>
+          `;
+          projectsContainer.appendChild(item);
+        }
+        break;
+    }
+  });
+}

@@ -1,0 +1,26 @@
+[about]
+content: I'm a Computer Science BSc (Hons) graduate with experience in Python, AWS, and more. I’m currently building a sentiment analysis tool that leverages AI on Google Maps reviews. I’ve worked in cyber security and government councils. In my spare time, I climb, game, and shoot hoops.
+
+[experience]
+title: Software Engineer, National Crime Agency (NCA)
+duration: 2023 — 2024
+content: Developed internal tools using Python, AWS Lambda, DynamoDB, Terraform and more. Led retros, resolved cloud issues, and collaborated cross-functionally.
+tags: Python, AWS, Terraform, Agile
+
+[experience]
+title: Software Developer Intern, Wigan Council
+duration: 2022 — 2024
+content: Built APIs to integrate with Wigan’s Jadu system. Spearheaded meetings with directors, aligned cross-department goals, and reduced waste issues.
+tags: JavaScript, Vue, HTML, CSS
+
+[project]
+title: AI Chatbot
+image: https://example.com/images/chatbot.png
+tags: Next.js, Tailwind, GPT
+content: Designed and deployed a chatbot with modern web tech and AI integration.
+
+[project]
+title: Spotify Wrapped Clone
+image: https://example.com/images/spotify.png
+tags: React, Tailwind
+content: A recreation of Spotify Wrapped to showcase music trends.
