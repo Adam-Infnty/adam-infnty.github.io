@@ -1,41 +1,76 @@
 [about]
-content: I'm a Computer science BSc (Hons) Graduate, with hands-on experience working in industry as a Python Developer. Eager to deepen my understanding of industry standards, best coding practices, and emerging technologies in the fast-paced world of tech. I have an arsenal of projects under my belt and a passion to create! I'm currently working on a sentiment analysis tool that leverages AI to analyse Google Maps reviews. In the past, I've had the opportunity to develop software across a variety of settings from Cyber Security Organisations to Government Councils. In my spare time, I’m usually climbing, gaming, and shooting some hoops.
+content: I'm a Computer science BSc (Hons) Graduate, with hands-on experience working in industry as a <strong>Python Developer</strong> Eager to deepen my understanding of industry standards, best coding practices, and emerging technologies in the fast-paced world of tech. I have an arsenal of project under my belt and have a passion to create! I'm <strong>currently working on a sentiment analysis tool</strong> that leveredges AI to analyse google maps reviews. But feel free to check out my other projects below. In the past, I've had the opportunity to develop software across a variety of settings from <strong>Cyber Security Organisations</strong> to <strong>Government Councils</strong>. In my spare time, I’m usually climbing, gaming, and shooting some hoops.
 
 [experience]
-title: Software Engineer, National Crime Agency (NCA) · London
-duration: 2023 — 2024
-content: Developed a range of tools for NCA officers using Python, AWS Lambda, DynamoDB, S3, EC2, VPC, Terraform, CloudWatch and GitLab in an Agile environment. Led retros and team meetings, conducted research spikes, managed project timelines, collaborated cross-functionally, resolved cloud/software issues, and implemented cloud solutions with Terraform.
-tags: JavaScript, TypeScript, React, Storybook
+tabtitle: National Crime Agency
+title: Software Engineer, National Crime Agency (NCA)
+duration: <i>London, 2023 — 2024</i>
+intro: Developed a range of tools for NCA officers using Python, AWS Lambda, DynamoDB, S3, EC2, VPC, Terraform, CloudWatch and GitLab in an Agile environment.</br>
+responsibilities:
+- In my role, I led retrospectives and team meetings to drive alignment, ensure deadlines were met, and provide support where needed. I conducted project spikes to research and present innovative solutions that enhanced project outcomes. By managing my time effectively, I consistently completed project tickets on schedule. I also diagnosed and resolved complex issues across cloud infrastructure, software systems, and digital forensics. Additionally, I implemented scalable cloud solutions using AWS services (EC2, Lambda, S3, RDS) and automated infrastructure provisioning through Terraform and CloudFormation.
+tags: Python, AWS, Lambda, DynamoDB, S3, EC2, VPC, Terraform, GitLab, Agile
 
 [experience]
-title: Software Developer, Wigan Council (Internship) · Wigan
-duration: 2022 — 2024
-content: Implemented an API system for Wigan Council’s Jadu platform to help residents book waste collection. Led meetings with directors, aligned cross-department goals, and handled technical communication.
-tags: HTML, CSS, JavaScript, Vue
+tabtitle: Wigan Council
+title: Software Developer Intern, Wigan Council
+duration: <i> Wigan, 2022 — 2023 </i>
+intro: Implementing an API system to wigan councils existing ‘Jadu’ system to enable residents in the borough to book waste collection slots as part of wigans mission to eliminate fly tipping and excess waste accumulation.</br>
+responsibilities:
+- I spearheaded cross-departmental meetings involving over 10 professionals, including directors from Wigan Council, to identify and address potential complications in the development of system integrations. Serving as a liaison between departments, I communicated technical challenges clearly, managed expectations, and ensured alignment across stakeholders to support a realistic and achievable integration plan.
 
 [experience]
-title: Restaurant Shift Manager, HMS Hosts · Manchester
-duration: 2020 — 2022
-content: Worked with a motivated team to serve 30% of Terminal 2's daily customer traffic at Manchester Airport. Managed stock levels, handled cash payments, delegated tasks, and resolved customer issues.
-tags: n/a
+tabtitle: HMS Hosts
+title: Shift Manager, HMS Hosts
+duration:<i> Manchester, 2020 — 2022 </i>
+intro: Working alongside a motivated and effective team to provide catering to over 30% of the airport’s customer traffic within terminal 2 a day, in the Amber Ale house.</br>
+responsibilities:
+- I managed stock levels within the restaurant to ensure customer needs were consistently met. I was responsible for handling cash payments and maintaining accurate cash float balances throughout my shifts. At the end of each shift, I delegated tasks to ensure all closing duties were completed and the restaurant was left in excellent condition for the morning team. I also resolved customer complaints where possible and promptly escalated issues requiring managerial attention to the appropriate person.
 
 [project]
+id: ai-chatbot
 title: AI Powered Chatbot
 image: images/chatbot.png
 tags: Python, Tailwind CSS, HTML5, Flask, JavaScript, AI
-content: Designed and developed a chatbot using modern web technologies. Integrated AI features to enhance interaction quality and automation.
+content: Built a chatbot using Flask and OpenAI APIs. Designed for natural language interaction and AI support.
 
 [project]
+id: spotify-wrapped
 title: Spotify Wrapped
 image: https://sm.pcmag.com/pcmag_uk/news/s/spotify-wr/spotify-wrapped-2023-how-to-see-the-songs-artists-you-listen_u92z.png
 tags: Flask, Tailwind CSS, HTML, JavaScript, Python
-content: Designed and developed a personalized take on Spotify Wrapped using the Spotify API and Flask.
+content: Recreated Spotify Wrapped using Spotipy and Flask to visualize user listening trends.
 
 [project]
+id: portfolio-site
 title: Portfolio Website
 image: images/portfolio site.png
 tags: Next.js, Tailwind CSS, HTML, JavaScript
-content: Designed and developed a personal portfolio to showcase professional experience and projects.
+content: Personal portfolio site to showcase my professional experience and selected projects.
 
-[contact]
-email: as.baguma@gmail.com
+[project]
+id: task-tracker
+title: Task Tracker App
+image: https://www.amitree.com/wp-content/uploads/2021/12/what-is-a-task-tracker-and-why-you-need-one.jpeg
+tags: Vue, Firebase, JavaScript
+content: A lightweight productivity app for tracking personal tasks and to-dos with real-time sync.
+
+[project]
+id: weather-dashboard
+title: Weather Dashboard
+image: https://www.figma.com/community/resource/c5ab864c-3b63-4997-8366-38b4b9603d95/thumbnail
+tags: HTML, CSS, JavaScript, OpenWeatherMap API
+content: Displays current weather conditions and forecasts for user-selected locations.
+
+[project]
+id: blog-platform
+title: Minimal Blog Platform
+image: https://www.springboard.com/blog/wp-content/uploads/2022/03/what-is-a-coding-project.png
+tags: Node.js, Express, MongoDB
+content: A simple CMS for writing and managing blog posts, with Markdown support and user authentication.
+
+[project]
+id: sentiment-analyzer
+title: Sentiment Analyzer
+image: https://bigblue.academy/images/image/blog/sentiment-analysis/group-153.jpg
+tags: Python, NLP, Flask, Tailwind
+content: Analyzes sentiment from text inputs and displays emotion tags. Built with Flask and a custom-trained NLP model.

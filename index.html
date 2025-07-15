@@ -52,7 +52,12 @@
 
     <main class="main-content">
     <section id="about" class="about"></section>
-    <section id="experience" class="experience"></section>
+    <section id="experience">
+    <tab-container id="experience-tabs">
+      <!-- Tabs and content will be injected here via JS -->
+    </tab-container>
+  </section>
+
     <section id="projects" class="projects">
       <h2>What I've Worked On...</h2>
     </section>
@@ -71,13 +76,16 @@
 
         <div class="form-group">
           <label for="message">Message</label>
-          <textarea id="message" name="message" placeholder="Your message..." rows="5" required></textarea>
+          <textarea id="message" name="message" rows="5" placeholder="Your message..." required></textarea>
         </div>
 
         <button type="submit" class="submit-btn">Send Message</button>
       </form>
     </section>
+
+
   </main>
   </div>
+  <div id="overlay-view" class="overlay hidden"></div>
 </body>
 </html>
