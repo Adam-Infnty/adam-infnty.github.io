@@ -63,7 +63,7 @@ document.addEventListener("DOMContentLoaded", () => {
 });
 
 function applyHoverEffects() {
-  const hoverTargets = document.querySelectorAll("button, a span, .section-nav li span, .social-icons img, .project-item, .contact-section");
+  const hoverTargets = document.querySelectorAll("button, a span, .section-nav li span, .social-icons img, .project-item, .contact-section, .tab-content h3");
   hoverTargets.forEach(el => {
     el.addEventListener("mouseenter", () => el.classList.add("hover-effect"));
     el.addEventListener("mouseleave", () => el.classList.remove("hover-effect"));
@@ -199,7 +199,7 @@ function renderProjectList(projects) {
 
   projects.forEach((project) => {
     const item = document.createElement("div");
-    item.className = "project-item hoverable";
+    item.className = "project-item hoverable glass-strong glass-weak";
     item.style.cursor = "pointer";
     item.addEventListener("click", () => {
       window.location.hash = `#project=${project.id}`;
@@ -244,7 +244,7 @@ function handleHashChange() {
       <button class="back-btn" onclick="window.location.hash = ''">← Back</button>
       <div class="project-grid">
         ${allProjects.map(project => `
-          <div class="project-item hoverable" onclick="window.location.hash = '#project=${project.id}'" style="cursor:pointer">
+          <div class="project-item hoverable glass-strong glass-weak" onclick="window.location.hash = '#project=${project.id}'" style="cursor:pointer">
             <div class="project-image-block">
               <img src="${project.image}" alt="${project.title}" />
               <div class="tech-tags">${project.tags.map(t => `<span>${t}</span>`).join("")}</div>

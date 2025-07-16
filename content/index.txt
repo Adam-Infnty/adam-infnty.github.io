@@ -7,8 +7,8 @@ title: Software Engineer, National Crime Agency (NCA)
 duration: <i>London, 2023 — 2024</i>
 intro: Developed a range of tools for NCA officers using Python, AWS Lambda, DynamoDB, S3, EC2, VPC, Terraform, CloudWatch and GitLab in an Agile environment.</br>
 responsibilities:
-- In my role, I led retrospectives and team meetings to drive alignment, ensure deadlines were met, and provide support where needed. I conducted project spikes to research and present innovative solutions that enhanced project outcomes. By managing my time effectively, I consistently completed project tickets on schedule. I also diagnosed and resolved complex issues across cloud infrastructure, software systems, and digital forensics. Additionally, I implemented scalable cloud solutions using AWS services (EC2, Lambda, S3, RDS) and automated infrastructure provisioning through Terraform and CloudFormation.
-tags: Python, AWS, Lambda, DynamoDB, S3, EC2, VPC, Terraform, GitLab, Agile
+- In my role, I led retrospectives and team meetings to drive alignment, ensure deadlines were met, and provide support where needed. I conducted project spikes to research and present innovative solutions that enhanced project outcomes. By managing my time effectively, I consistently completed project tickets on schedule. I also diagnosed and resolved complex issues across cloud infrastructure, software systems, and digital forensics. Additionally, I implemented scalable cloud solutions using AWS services (EC2, Lambda, S3, RDS) and automated infrastructure provisioning through Terraform and CloudFormation.</br></br>
+tags: Python, AWS, Lambda, DynamoDB, S3, EC2, VPC, Terraform, GitLab, Agile, npm, node
 
 [experience]
 tabtitle: Wigan Council
@@ -16,7 +16,8 @@ title: Software Developer Intern, Wigan Council
 duration: <i> Wigan, 2022 — 2023 </i>
 intro: Implementing an API system to wigan councils existing ‘Jadu’ system to enable residents in the borough to book waste collection slots as part of wigans mission to eliminate fly tipping and excess waste accumulation.</br>
 responsibilities:
-- I spearheaded cross-departmental meetings involving over 10 professionals, including directors from Wigan Council, to identify and address potential complications in the development of system integrations. Serving as a liaison between departments, I communicated technical challenges clearly, managed expectations, and ensured alignment across stakeholders to support a realistic and achievable integration plan.
+- I spearheaded cross-departmental meetings involving over 10 professionals, including directors from Wigan Council, to identify and address potential complications in the development of system integrations. Serving as a liaison between departments, I communicated technical challenges clearly, managed expectations, and ensured alignment across stakeholders to support a realistic and achievable integration plan.</br></br>
+tags: Php, C+, Java
 
 [experience]
 tabtitle: HMS Hosts
@@ -24,13 +25,14 @@ title: Shift Manager, HMS Hosts
 duration:<i> Manchester, 2020 — 2022 </i>
 intro: Working alongside a motivated and effective team to provide catering to over 30% of the airport’s customer traffic within terminal 2 a day, in the Amber Ale house.</br>
 responsibilities:
-- I managed stock levels within the restaurant to ensure customer needs were consistently met. I was responsible for handling cash payments and maintaining accurate cash float balances throughout my shifts. At the end of each shift, I delegated tasks to ensure all closing duties were completed and the restaurant was left in excellent condition for the morning team. I also resolved customer complaints where possible and promptly escalated issues requiring managerial attention to the appropriate person.
+- I managed stock levels within the restaurant to ensure customer needs were consistently met. I was responsible for handling cash payments and maintaining accurate cash float balances throughout my shifts. At the end of each shift, I delegated tasks to ensure all closing duties were completed and the restaurant was left in excellent condition for the morning team. I also resolved customer complaints where possible and promptly escalated issues requiring managerial attention to the appropriate person.</br></br>
+tags: N/A
 
 [project]
 id: ai-chatbot
 title: AI Powered Chatbot
 image: images/chatbot.png
-tags: Python, Tailwind CSS, HTML5, Flask, JavaScript, AI
+tags: Python, Tailwind CSS, HTML5, Flask, LlaMa, Ai, SQLite3, JavaScript
 content: Built a chatbot using Flask and OpenAI APIs. Designed for natural language interaction and AI support.
 
 [project]
@@ -48,6 +50,13 @@ tags: Next.js, Tailwind CSS, HTML, JavaScript
 content: Personal portfolio site to showcase my professional experience and selected projects.
 
 [project]
+id: sentiment-analyzer
+title: AI Sentiment Analyzer
+image: https://bigblue.academy/images/image/blog/sentiment-analysis/group-153.jpg
+tags: Python, NLTK, Flask, LlaMa, Ai, SQLite3
+content: Analyzes sentiment from text inputs and displays emotion tags. Built with Flask and a custom-trained NLP model.
+
+[project]
 id: task-tracker
 title: Task Tracker App
 image: https://www.amitree.com/wp-content/uploads/2021/12/what-is-a-task-tracker-and-why-you-need-one.jpeg
@@ -62,15 +71,8 @@ tags: HTML, CSS, JavaScript, OpenWeatherMap API
 content: Displays current weather conditions and forecasts for user-selected locations.
 
 [project]
-id: blog-platform
-title: Minimal Blog Platform
+id: student-management-system
+title: Student Management System
 image: https://www.springboard.com/blog/wp-content/uploads/2022/03/what-is-a-coding-project.png
-tags: Node.js, Express, MongoDB
+tags: Java, Java Gui
 content: A simple CMS for writing and managing blog posts, with Markdown support and user authentication.
-
-[project]
-id: sentiment-analyzer
-title: Sentiment Analyzer
-image: https://bigblue.academy/images/image/blog/sentiment-analysis/group-153.jpg
-tags: Python, NLP, Flask, Tailwind
-content: Analyzes sentiment from text inputs and displays emotion tags. Built with Flask and a custom-trained NLP model.
