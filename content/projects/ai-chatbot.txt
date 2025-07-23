@@ -1,16 +1,20 @@
 [project]
-id: spotify-wrapped
-title: Spotify Wrapped
-description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam et molestie eros. Integer vitae odio pretium, pharetra mauris nec, commodo leo. Sed consectetur scelerisque leo vitae accumsan. Suspendisse at dignissim magna. Nam ultricies lobortis ornare. Donec cursus nibh tellus, vel tincidunt tortor congue nec. Curabitur auctor vestibulum nunc, suscipit gravida tortor. Vestibulum magna justo, pretium ultrices venenatis eget, rutrum vitae nulla. Cras nibh felis, dictum vitae justo a, ultrices sodales libero. Pellentesque aliquam sapien ac orci molestie pulvinar. Suspendisse ut efficitur arcu. Sed vitae malesuada magna, ac accumsan magna. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nam tincidunt justo eu lectus convallis, non auctor tellus condimentum. Curabitur a finibus tortor. Nam vitae tempus mi, in rutrum risus. Pellentesque nisl turpis, rhoncus a elementum at, tempor nec est. Maecenas dolor justo, pellentesque et arcu quis, lacinia tempus sem. Fusce ullamcorper odio dui, ac ornare nisl fermentum in. In sit amet eros non arcu sollicitudin mollis et sit amet leo. Integer quis ultrices velit. Vestibulum efficitur vestibulum erat, sed volutpat nulla posuere id.
+id: ai-chatbot
+title: Ai Chatbot Assistant
+description: Developed a <b>locally hosted, AI-powered web application</b> for real-time sentiment analysis using <b>LLaMA 3.1</b> via <b>Ollama</b>, integrated with a modern <b>HTML/CSS/JavaScript frontend</b>. The application features a <b>responsive user interface</b>, dynamic charting, and intelligent feedback powered by locally run LLM inference. Implemented <b>Flask-based session handling</b> to provide a tailored, persistent user experience across sessions. User input and AI responses are stored in an <b>SQLite3 database</b>, while a <b>vector database</b> enables <b>semantic search</b> and context-aware interactions by indexing text embeddings. Performance is optimized using <b>Python multithreading</b> to handle concurrent requests and model operations without blocking. The app was <b>securely hosted using Ngrok</b> for public access during testing, and deployed on a <b>dedicated workstation with an RTX 3090 GPU</b> to support fast, efficient local inference without relying on cloud APIs. This project demonstrates <b>full-stack AI deployment</b> with local LLM serving, custom backend logic, and frontend interactivity.
 link: https://your-live-demo.com
 methods: 
-- Used Spotify Web API with user authentication
-- Parsed top tracks, artists, genres
-- Visualized data using Chart.js and Tailwind
-- Deployed to custom server with NGINX and HTTPS
-tech: Flask, Spotipy, Chart.js, Tailwind, Python
+- Built a fully responsive web interface using <b>HTML5</b>, <b>CSS</b>, and <b>JavaScript</b> for real-time input and result rendering
+- Integrated <b>Flask session handling</b> to manage user state and conversation flow between requests
+- Used <b>SQLite3</b> as a lightweight local database for storing user input, AI responses, and sentiment logs
+- Implemented a <b>vector database</b> (e.g., ChromaDB or FAISS) for semantic search and context retrieval using embedded representations
+- Applied <b>Python multithreading</b> to enable parallel processing of inference and data tasks, improving performance and responsiveness
+- Used <b>Ngrok</b> to securely expose the local development server to the web for testing and external API integrations
+- Deployed and fine-tuned the <b>LLaMA 3.1</b> LLM using <b>Ollama</b> for offline, high-performance language processing
+- Utilized an <b>NVIDIA RTX 3090 GPU</b> to accelerate inference and ensure smooth, low-latency performance in a self-hosted environment
+tech: Python, Tailwind CSS, HTML5, Flask, LlaMa, Ollama, OpenAI, Ai, SQLite3, JavaScript
 images: 
-- https://t4.ftcdn.net/jpg/04/39/89/01/360_F_439890152_sYbPxa1ANTSKcZuUsKzRAf9O7bJ1Tx5B.jpg
-- https://i.pinimg.com/564x/09/af/92/09af9238d44d9aab268727e20e4a918e.jpg
-- https://t4.ftcdn.net/jpg/04/39/89/01/360_F_439890152_sYbPxa1ANTSKcZuUsKzRAf9O7bJ1Tx5B.jpg
-- https://i.pinimg.com/564x/09/af/92/09af9238d44d9aab268727e20e4a918e.jpg
+- images/chatbot.png
+- images/chatbot1.png
+- images/chatbot2.png
+- images/chatbot3.png

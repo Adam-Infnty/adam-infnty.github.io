@@ -178,7 +178,7 @@ body {
 .project-item {
   display: flex;
   flex-wrap: wrap;
-  gap: 2rem;
+  gap: 1rem;
   margin-bottom: 2rem;
   padding: 1rem;
   border-radius: 1rem;
@@ -328,7 +328,7 @@ body {
   }
 
   .project-content {
-    padding-top: 1rem;
+    /* padding-top: 1rem; */
   }
 }
 

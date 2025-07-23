@@ -1,8 +1,8 @@
 [project]
 id: spotify-wrapped
 title: Spotify Wrapped
-description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam et molestie eros. Integer vitae odio pretium, pharetra mauris nec, commodo leo. Sed consectetur scelerisque leo vitae accumsan. Suspendisse at dignissim magna. Nam ultricies lobortis ornare. Donec cursus nibh tellus, vel tincidunt tortor congue nec. Curabitur auctor vestibulum nunc, suscipit gravida tortor. Vestibulum magna justo, pretium ultrices venenatis eget, rutrum vitae nulla. Cras nibh felis, dictum vitae justo a, ultrices sodales libero. Pellentesque aliquam sapien ac orci molestie pulvinar. Suspendisse ut efficitur arcu. Sed vitae malesuada magna, ac accumsan magna. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nam tincidunt justo eu lectus convallis, non auctor tellus condimentum. Curabitur a finibus tortor. Nam vitae tempus mi, in rutrum risus. Pellentesque nisl turpis, rhoncus a elementum at, tempor nec est. Maecenas dolor justo, pellentesque et arcu quis, lacinia tempus sem. Fusce ullamcorper odio dui, ac ornare nisl fermentum in. In sit amet eros non arcu sollicitudin mollis et sit amet leo. Integer quis ultrices velit. Vestibulum efficitur vestibulum erat, sed volutpat nulla posuere id.
-link: https://your-live-demo.com
+description: Built a <b>Spotify Wrapped-style web app</b> using <b>Flask</b>, <b>Spotipy</b>, and the <b>Spotify Web API</b>. Implemented secure <b>OAuth 2.0 authentication</b> to access user listening history, including <b>top tracks, artists, and genres</b>. Parsed Spotify's JSON responses and aggregated metadata using Python, then rendered the results through <b>interactive Chart.js visualizations</b>. Styled the frontend with <b>Tailwind CSS</b> for a clean, responsive UI and structured it with <b>HTML</b> and <b>JavaScript</b>. Deployed the application to a custom Linux server running <b>NGINX</b> as a reverse proxy, with HTTPS enabled via <b>Let's Encrypt</b>. This project demonstrates full-stack development with third-party APIs, <b>data-driven storytelling</b>, and <b>secure deployment</b> practices using open-source tools and modern web frameworks.
+link: https://example.com
 methods: 
 - Used Spotify Web API with user authentication
 - Parsed top tracks, artists, genres
@@ -10,7 +10,7 @@ methods:
 - Deployed to custom server with NGINX and HTTPS
 tech: Flask, Spotipy, Chart.js, Tailwind, Python
 images: 
-- https://t4.ftcdn.net/jpg/04/39/89/01/360_F_439890152_sYbPxa1ANTSKcZuUsKzRAf9O7bJ1Tx5B.jpg
-- https://i.pinimg.com/564x/09/af/92/09af9238d44d9aab268727e20e4a918e.jpg
-- https://t4.ftcdn.net/jpg/04/39/89/01/360_F_439890152_sYbPxa1ANTSKcZuUsKzRAf9O7bJ1Tx5B.jpg
-- https://i.pinimg.com/564x/09/af/92/09af9238d44d9aab268727e20e4a918e.jpg
+- https://s.yimg.com/ny/api/res/1.2/7StqG0NA5eYCIVruxJPoow--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEyNDI7aD02OTk-/https://media.zenfs.com/en/windows_central_293/62622caae36f60350370736f89a0ae9f
+- https://www.digitaltrends.com/wp-content/uploads/2022/11/spotify-unwrapped-2022-top-songs.jpg?fit=720%2C720&p=1
+- https://sm.pcmag.com/pcmag_au/news/s/spotify-wr/spotify-wrapped-is-here-how-to-see-what-you-listened-to-most_n1sx.png
+- https://i.ytimg.com/vi/x3jI3xXNYDo/maxresdefault.jpg

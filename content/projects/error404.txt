@@ -1,0 +1,10 @@
+[project]
+id: 
+title: error404
+description: Content not found
+link: https://your-live-demo.com
+methods: 
+- N/a
+tech: N/A
+images: 
+- n/a
