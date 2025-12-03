@@ -110,7 +110,7 @@ function injectContent(entries) {
 
   entries.forEach((entry) => {
     if (entry.section === "about" && aboutContainer) {
-      aboutContainer.innerHTML += `<p>${entry.content}</p>`;
+      aboutContainer.innerHTML += `<p>"""""""""${entry.content}"""""""""</p>`;
     }
   });
 
