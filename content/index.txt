@@ -18,9 +18,6 @@ responsibilities:
 - Conducted research spikes to evaluate new tools, security controls, and AWS features to improve automation and system efficiency.
 - Contributed to full SDLC: requirements analysis, architecture discussions, implementation, testing, and deployment.
 - Integrated robust <b>CI/CD pipelines</b> supporting automated testing and environment deployments.
-- Led <b>Agile ceremonies</b> (stand ups, retrospectives, planning) and supported delivery planning in a fast paced, mission driven team.
-- Diagnosed and resolved complex issues across <b>cloud infrastructure</b>, <b>digital forensics platforms</b>, <b>software pipelines</b>, and operational automation scripts.
-- Collaborated with <b>designers, PMs, and QA teams</b> to deliver secure, user focused applications.</br></br>
 tags: Python, AWS, Lambda, DynamoDB, S3, EC2, VPC, Terraform, AWS CDK, Selenium, Appium, GitLab, Agile, npm, node
 
 
