@@ -20,7 +20,6 @@ responsibilities:
 tags: Python, AWS, Lambda, DynamoDB, S3, EC2, VPC, Terraform, AWS CDK, Selenium, Appium, GitLab, Agile, npm, node
 
 
-
 [experience]
 tabtitle: Wigan Council
 title: Software Developer Intern, Wigan Council
