@@ -5,19 +5,21 @@ I'm currently developing a <b>sentiment analysis tool</b> that analyzes <b>Googl
 Please note, some projects may not work. I am currently in the process of configuring a home server to host my projects for you to try.</b>
 
 
-
 [experience]
 tabtitle: National Crime Agency
 title: Software Engineer, National Crime Agency (NCA)
 duration: <i>London, 2023 — 2024</i>
-intro: Delivered backend and cloud automation capabilities for operational and cyber focused teams, working within secure government environments. Developed internal tools for NCA officers using modern cloud technologies and Python based systems. Worked in an <b>Agile environment</b> with <b>cross functional teams</b> to build scalable, secure solutions for law enforcement operations.</br>
+intro: Delivered backend and cloud automation capabilities for operational and cyber-focused teams, working within secure government environments. Developed internal tools for NCA officers using modern cloud technologies and Python-based systems. Worked in an <b>Agile environment</b> with <b>cross-functional teams</b> to build scalable, secure solutions for law enforcement operations.</br>
 responsibilities:
-- Engineered Python based backend services leveraging <b>AWS Lambda, EC2, DynamoDB, S3</b>, and <b>VPC integrated systems</b> for operational workflows and data pipelines.
-- Implemented secure by default <b>Terraform</b> and <b>AWS CDK modules</b> to automate cloud deployments.
+- Engineered Python-based backend services leveraging <b>AWS Lambda, EC2, DynamoDB, S3</b>, and <b>VPC-integrated systems</b> for operational workflows and data pipelines.
+- Implemented secure-by-default <b>Terraform</b> and <b>AWS CDK modules</b> to automate cloud deployments.
 - Developed internal tooling enabling automation of operational workflows, including <b>web and mobile testing pipelines using Selenium and Appium</b> for automated QA across browsers and devices.
 - Conducted research spikes to evaluate new tools, security controls, and AWS features to improve automation and system efficiency.
 - Contributed to full SDLC: requirements analysis, architecture discussions, implementation, testing, and deployment.
 - Integrated robust <b>CI/CD pipelines</b> supporting automated testing and environment deployments.
+- Led <b>Agile ceremonies</b> (stand-ups, retrospectives, planning) and supported delivery planning in a fast-paced, mission-driven team.
+- Diagnosed and resolved complex issues across <b>cloud infrastructure</b>, <b>digital forensics platforms</b>, <b>software pipelines</b>, and operational automation scripts.
+- Collaborated with <b>designers, PMs, and QA teams</b> to deliver secure, user-focused applications.</br></br>
 tags: Python, AWS, Lambda, DynamoDB, S3, EC2, VPC, Terraform, AWS CDK, Selenium, Appium, GitLab, Agile, npm, node
 
 
