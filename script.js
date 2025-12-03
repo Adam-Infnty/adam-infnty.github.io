@@ -213,6 +213,7 @@ function renderProjectList(projects) {
       <div class="project-content">
         <h3>${project.title}</h3>
         <p>${project.content}</p>
+        ${project.link ? `<a class="project-link" href="${project.link}" target="_blank">View Project →</a>` : ""}
       </div>
     `;
     container.appendChild(item);

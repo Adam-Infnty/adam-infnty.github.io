@@ -64,6 +64,16 @@ title: AI Powered Chatbot
 image: images/chatbot.png
 tags: Python, Tailwind CSS, HTML5, Flask, LlaMa, Ollama, OpenAI, Ai, SQLite3, JavaScript
 content: Built a <b>natural language chatbot</b> using <b>Flask</b> and multiple LLM providers including <b>OpenAI</b> and <b>Meta's LLaMA via Ollama</b>. Supports context retention, local or cloud inference, and uses <b>SQLite3</b> with a modern <b>Tailwind CSS</b> UI. Demonstrates proficiency in <b>AI APIs, prompt engineering, and LLM deployment</b>.
+link: https://github.com/Adam-Infnty/chatbot
+
+
+[project]
+id: automation testing
+title: Weather Dashboard
+image: https://www.figma.com/community/resource/c5ab864c-3b63-4997-8366-38b4b9603d95/thumbnail
+tags: HTML, CSS, JavaScript, OpenWeatherMap API
+content: Interactive dashboard using <b>OpenWeatherMap API</b> with real-time weather data and enhanced UI.
+link: 
 
 
 [project]
@@ -72,6 +82,7 @@ title: Spotify Wrapped
 image: https://sm.pcmag.com/pcmag_uk/news/s/spotify-wr/spotify-wrapped-2023-how-to-see-the-songs-artists-you-listen_u92z.png
 tags: Flask, Tailwind CSS, HTML, JavaScript, Python
 content: Recreated Spotify Wrapped using Spotipy and Flask to visualize listening trends.
+link: https://github.com/Adam-Infnty/Wrapped_Weekly
 
 
 [project]
@@ -80,6 +91,7 @@ title: AI Sentiment Analyzer
 image: https://bigblue.academy/images/image/blog/sentiment-analysis/group-153.jpg
 tags: Python, NLTK, Flask, LlaMa, Ollama, OpenAI, Ai, SQLite3
 content: An AI-powered tool analyzing sentiment in user input and <b>Google Maps reviews</b>. Combines <b>LLMs</b>, <b>NLTK preprocessing</b>, <b>Flask</b>, and <b>SQLite3</b> with multithreading for performance.
+link: https://github.com/Adam-Infnty/SentimentAnalysisAI
 
 
 [project]
@@ -88,14 +100,7 @@ title: Portfolio Website
 image: images/portfolio site.png
 tags: Next.js, Tailwind CSS, HTML, JavaScript
 content: Built this <b>portfolio site</b> using <b>Next.js</b> and <b>Tailwind CSS</b> for a responsive and engaging layout.
-
-
-[project]
-id: weather-dashboard
-title: Weather Dashboard
-image: https://www.figma.com/community/resource/c5ab864c-3b63-4997-8366-38b4b9603d95/thumbnail
-tags: HTML, CSS, JavaScript, OpenWeatherMap API
-content: Interactive dashboard using <b>OpenWeatherMap API</b> with real-time weather data and enhanced UI.
+link: https://github.com/Adam-Infnty/adam-infnty.github.io
 
 
 [project]
@@ -104,3 +109,4 @@ title: Student Management System
 image: https://www.springboard.com/blog/wp-content/uploads/2022/03/what-is-a-coding-project.png
 tags: Java, Java Gui
 content: A <b>Java-based student management system</b> with GUI, CRUD features, and basic authentication.
+link: https://github.com/Adam-Infnty/Studetn-Management-System
