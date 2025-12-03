@@ -2,7 +2,7 @@
 id: ai-chatbot
 title: Ai Chatbot Assistant
 description: Developed a <b>locally hosted, AI-powered web application</b> for real-time sentiment analysis using <b>LLaMA 3.1</b> via <b>Ollama</b>, integrated with a modern <b>HTML/CSS/JavaScript frontend</b>. The application features a <b>responsive user interface</b>, dynamic charting, and intelligent feedback powered by locally run LLM inference. Implemented <b>Flask-based session handling</b> to provide a tailored, persistent user experience across sessions. User input and AI responses are stored in an <b>SQLite3 database</b>, while a <b>vector database</b> enables <b>semantic search</b> and context-aware interactions by indexing text embeddings. Performance is optimized using <b>Python multithreading</b> to handle concurrent requests and model operations without blocking. The app was <b>securely hosted using Ngrok</b> for public access during testing, and deployed on a <b>dedicated workstation with an RTX 3090 GPU</b> to support fast, efficient local inference without relying on cloud APIs. This project demonstrates <b>full-stack AI deployment</b> with local LLM serving, custom backend logic, and frontend interactivity.
-link: https://your-live-demo.com
+link: https://github.com/Adam-Infnty/chatbot
 methods: 
 - Built a fully responsive web interface using <b>HTML5</b>, <b>CSS</b>, and <b>JavaScript</b> for real-time input and result rendering
 - Integrated <b>Flask session handling</b> to manage user state and conversation flow between requests

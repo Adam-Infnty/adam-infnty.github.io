@@ -2,7 +2,7 @@
 id: spotify-wrapped
 title: Spotify Wrapped
 description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam et molestie eros. Integer vitae odio pretium, pharetra mauris nec, commodo leo. Sed consectetur scelerisque leo vitae accumsan. Suspendisse at dignissim magna. Nam ultricies lobortis ornare. Donec cursus nibh tellus, vel tincidunt tortor congue nec. Curabitur auctor vestibulum nunc, suscipit gravida tortor. Vestibulum magna justo, pretium ultrices venenatis eget, rutrum vitae nulla. Cras nibh felis, dictum vitae justo a, ultrices sodales libero. Pellentesque aliquam sapien ac orci molestie pulvinar. Suspendisse ut efficitur arcu. Sed vitae malesuada magna, ac accumsan magna. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nam tincidunt justo eu lectus convallis, non auctor tellus condimentum. Curabitur a finibus tortor. Nam vitae tempus mi, in rutrum risus. Pellentesque nisl turpis, rhoncus a elementum at, tempor nec est. Maecenas dolor justo, pellentesque et arcu quis, lacinia tempus sem. Fusce ullamcorper odio dui, ac ornare nisl fermentum in. In sit amet eros non arcu sollicitudin mollis et sit amet leo. Integer quis ultrices velit. Vestibulum efficitur vestibulum erat, sed volutpat nulla posuere id.
-link: https://your-live-demo.com
+link: https://github.com/Adam-Infnty/Wrapped_Weekly
 methods: 
 - Used Spotify Web API with user authentication
 - Parsed top tracks, artists, genres

@@ -2,7 +2,7 @@
 id: sentiment-analyzer
 title: ai sentiment analysis
 description: the focus of this project is to create a sentiment analysier tool that leveradges ai. sentiment tools are used to check the polarity of a comment / review and ai is used to sumarise the findings.
-link: https://your-live-demo.com
+link: https://github.com/Adam-Infnty/SentimentAnalysisAI
 methods: 
 - Used Spotify Web API with user authentication
 - Parsed top tracks, artists, genres
