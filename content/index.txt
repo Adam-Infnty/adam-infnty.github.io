@@ -6,13 +6,17 @@ content: I'm a <b>Computer Science BSc (Hons) Graduate</b> from Edge Hill Univer
 tabtitle: National Crime Agency
 title: Software Engineer, National Crime Agency (NCA)
 duration: <i>London, 2023 — 2024</i>
-intro: Developed internal tools for NCA officers using modern cloud technologies and Python-based systems. Worked in an <b>Agile environment</b> with <b>cross-functional teams</b> to build scalable, secure solutions for law enforcement operations.</br>
+intro: Developed internal tools for NCA officers using modern cloud technologies and Python-based systems. Worked in an <b>Agile environment</b> with <b>cross functional teams</b> to build scalable, secure solutions for law enforcement operations.</br>
 responsibilities:
-- <b>Led retrospectives and team stand-ups</b> to align priorities, review progress, and improve team performance.
-- Conducted <b>project spikes</b> to investigate and prototype technical solutions using AWS services.
-- Implemented scalable applications with <b>AWS EC2, Lambda, S3, RDS, and VPC</b>, and automated deployments using <b>Terraform</b> and <b>CloudFormation</b>.
-- Diagnosed and resolved complex issues across <b>cloud infrastructure</b>, <b>digital forensics platforms</b>, and <b>software pipelines</b>.
-- Collaborated closely with <b>designers, product managers, and QA teams</b> to deliver functional and user-focused applications.</br></br>
+- Engineered Python based backend services leveraging <b>AWS Lambda, EC2, DynamoDB, S3</b>, and <b>VPC-integrated systems</b> for operational workflows and data pipelines.
+- Implemented secure by default <b>Terraform</b> and <b>AWS CDK modules</b> to automate cloud deployments.
+- Developed internal tooling enabling automation of operational workflows, including <b>web and mobile testing pipelines using Selenium and Appium</b> for automated QA across browsers and devices.
+- Conducted research spikes to evaluate new tools, security controls, and AWS features to improve automation and system efficiency.
+- Contributed to full SDLC: requirements analysis, architecture discussions, implementation, testing, and deployment.
+- Integrated robust <b>CI/CD pipelines</b> supporting automated testing and environment deployments.
+- Led <b>Agile ceremonies</b> (stand ups, retrospectives, planning) and supported delivery planning in a fast-paced, mission-driven team.
+- Diagnosed and resolved complex issues across <b>cloud infrastructure</b>, <b>digital forensics platforms</b>, <b>software pipelines</b>, and operational automation scripts.
+- Collaborated with <b>designers, PMs, and QA teams</b> to deliver secure, user focused applications.</br></br>
 tags: Python, AWS, Lambda, DynamoDB, S3, EC2, VPC, Terraform, GitLab, Agile, npm, node
 
 
