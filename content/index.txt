@@ -3,7 +3,6 @@ content: I'm a <b>Computer Science BSc (Hons) Graduate</b> from Edge Hill Univer
 
 
 [experience]
-[experience]
 tabtitle: National Crime Agency
 title: Software Engineer, National Crime Agency (NCA)
 duration: <i>London, 2023 — 2024</i>

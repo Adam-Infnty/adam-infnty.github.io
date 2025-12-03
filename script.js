@@ -138,6 +138,7 @@ function injectTabbedExperience(experiences) {
   const contentArea = document.createElement("div");
   contentArea.className = "tab-contents";
 
+  // Arrays to store inputs and content separately
   const inputs = [];
 
   experiences.slice(0, 3).forEach((exp, idx) => {
@@ -150,7 +151,7 @@ function injectTabbedExperience(experiences) {
     input.name = "tabs";
     input.id = tabId;
     if (idx === 0) input.checked = true;
-    inputs.push(input);
+    inputs.push(input); // Store for appending later
 
     // Create label
     const label = document.createElement("label");
@@ -163,16 +164,14 @@ function injectTabbedExperience(experiences) {
     content.className = "tab-content";
     content.id = contentId;
 
-    // Render responsibilities as bullet points
-    const responsibilitiesHTML = exp.responsibilities?.length
-      ? `<ul>${exp.responsibilities.map(r => `<li>${r}</li>`).join("")}</ul>`
-      : "";
-
     content.innerHTML = `
       <h3>${exp.title}</h3>
       <p class="duration">${exp.duration}</p>
       <p>${exp.intro}</p>
-      ${responsibilitiesHTML}
+      ${exp.responsibilities?.length ? `
+        </br>
+        <p>${exp.responsibilities.join(" ")}</p>
+      ` : ""}
       ${exp.tags?.length ? `
         <div class="tech-tags">${exp.tags.map(t => `<span>${t}</span>`).join("")}</div>
       ` : ""}
@@ -180,10 +179,16 @@ function injectTabbedExperience(experiences) {
     contentArea.appendChild(content);
   });
 
-  // Append inputs, tabBar, and contentArea to container
+  // Add final placeholder tab for spacing
+  const placeholder = document.createElement("div");
+  placeholder.className = "tab-placeholder";
+  tabBar.appendChild(placeholder);
+
+  // Append inputs *before* tab bar and content
   inputs.forEach(input => tabSystem.appendChild(input));
   tabSystem.appendChild(tabBar);
   tabSystem.appendChild(contentArea);
+
   container.appendChild(tabSystem);
 }
 
