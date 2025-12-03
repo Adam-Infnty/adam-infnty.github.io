@@ -6,30 +6,26 @@ content: I'm a <b>Computer Science BSc (Hons) Graduate</b> from Edge Hill Univer
 tabtitle: National Crime Agency
 title: Software Engineer, National Crime Agency (NCA)
 duration: <i>London, 2023 — 2024</i>
-intro: Delivered backend and cloud automation capabilities for operational and cyber-focused teams, working within secure government environments. Developed internal tools for NCA officers using modern cloud technologies and Python-based systems. Worked in an <b>Agile environment</b> with <b>cross-functional teams</b> to build scalable, secure solutions for law enforcement operations.</br>
+intro: Developed internal tools for NCA officers using modern cloud technologies and Python-based systems. Worked in an <b>Agile environment</b> with <b>cross-functional teams</b> to build scalable, secure solutions for law enforcement operations.</br>
 responsibilities:
-- Engineered Python-based backend services leveraging <b>AWS Lambda, EC2, DynamoDB, S3</b>, and <b>VPC-integrated systems</b> for operational workflows and data pipelines.
-- Implemented secure-by-default <b>Terraform</b> and <b>AWS CDK modules</b> to automate cloud deployments.
-- Developed internal tooling enabling automation of operational workflows, including <b>web and mobile testing pipelines using Selenium and Appium</b> for automated QA across browsers and devices.
-- Conducted research spikes to evaluate new tools, security controls, and AWS features to improve automation and system efficiency.
-- Contributed to full SDLC: requirements analysis, architecture discussions, implementation, testing, and deployment.
-- Integrated robust <b>CI/CD pipelines</b> supporting automated testing and environment deployments.
-- Led <b>Agile ceremonies</b> (stand-ups, retrospectives, planning) and supported delivery planning in a fast-paced, mission-driven team.
-- Diagnosed and resolved complex issues across <b>cloud infrastructure</b>, <b>digital forensics platforms</b>, <b>software pipelines</b>, and operational automation scripts.
-- Collaborated with <b>designers, PMs, and QA teams</b> to deliver secure, user-focused applications.</br></br>
-tags: Python, AWS, Lambda, DynamoDB, S3, EC2, VPC, Terraform, AWS CDK, Selenium, Appium, GitLab, Agile, npm, node
+- <b>Led retrospectives and team stand-ups</b> to align priorities, review progress, and improve team performance.
+- Conducted <b>project spikes</b> to investigate and prototype technical solutions using AWS services.
+- Implemented scalable applications with <b>AWS EC2, Lambda, S3, RDS, and VPC</b>, and automated deployments using <b>Terraform</b> and <b>CloudFormation</b>.
+- Diagnosed and resolved complex issues across <b>cloud infrastructure</b>, <b>digital forensics platforms</b>, and <b>software pipelines</b>.
+- Collaborated closely with <b>designers, product managers, and QA teams</b> to deliver functional and user-focused applications.</br></br>
+tags: Python, AWS, Lambda, DynamoDB, S3, EC2, VPC, Terraform, GitLab, Agile, npm, node
 
 
 [experience]
 tabtitle: Wigan Council
 title: Software Developer Intern, Wigan Council
 duration: <i>Wigan, 2022 — 2023</i>
-intro: Integrated a booking system into the council's infrastructure to support borough-wide waste management improvements. Aimed at reducing fly-tipping and optimizing public services through automation.</br>
+intro: Integrated a booking system into the council's existing infrastructure to support borough-wide waste management improvements. Project aimed at reducing fly-tipping and optimizing public services through automation.</br>
 responsibilities:
-- Designed and implemented an <b>API system</b> integrated into the council’s <b>Jadu platform</b>.
-- Facilitated <b>multi-departmental meetings</b> with directors and technical teams.
-- Translated requirements into <b>technical implementations</b> while managing expectations.
-- Ensured compatibility and scalability through <b>best API design practices</b>.</br></br>
+- Designed and implemented an <b>API system</b> that integrated into the council’s <b>Jadu platform</b>, enabling residents to book waste collection appointments.
+- Facilitated and led <b>multi-departmental meetings</b> with council directors and technical teams to align on scope, requirements, and potential blockers.
+- Translated business requirements into <b>realistic technical plans</b> while managing stakeholder expectations and timelines.
+- Ensured compatibility and scalability by adhering to <b>best practices in API design</b> and modular development.</br></br>
 tags: PHP, C++, Java
 
 
@@ -37,71 +33,64 @@ tags: PHP, C++, Java
 tabtitle: HMS Hosts
 title: Shift Manager, HMS Hosts
 duration: <i>Manchester, 2020 — 2022</i>
-intro: Managed operations at Amber Ale House in Manchester Airport T2, serving 30%+ of daily customer traffic during peak hours.</br>
+intro: Managed day-to-day operations at the Amber Ale House in Manchester Airport Terminal 2, serving over 30% of daily customer traffic during peak hours.</br>
 responsibilities:
-- Managed <b>inventory and stock levels</b> in a high-volume environment.
-- Handled <b>cash and reconciliation</b> with accuracy.
-- Delegated closing responsibilities ensuring smooth shift transitions.
-- Resolved customer complaints while maintaining service standards.</br></br>
+- Managed <b>inventory and stock levels</b> to support a high-volume environment.
+- Handled <b>cash and reconciliation</b> responsibilities, maintaining accuracy and accountability across shifts.
+- Delegated closing responsibilities and <b>ensured seamless handovers</b> between morning and evening shifts.
+- Resolved customer complaints professionally, escalating as needed to ensure high service standards.</br></br>
 tags: N/A
-
 
 [experience]
 tabtitle: F3 Bar Services
 title: Assistant Bar Manager, F3 Bar Service Team
 duration: <i>Manchester, 2020 — 2023</i>
-intro: Led a bar team serving VIP guests—including celebrities—at Etihad Stadium in the exclusive Mancunian restaurant (470+ customers per event).</br>
+intro: Led a bar team catering to VIP guests—including celebrities—at the Etihad Stadium, serving over 470 customers per event within the exclusive Mancunian restaurant.</br>
 responsibilities:
-- Oversaw <b>event preparation and inventory control</b>.
-- <b>Trained junior staff</b> and supported managerial duties.
-- Delivered <b>high-level customer service</b> in fast-paced environments.
-- Filled <b>leadership roles</b> during manager absences.</br></br>
+- Oversaw <b>event preparation and inventory control</b>, ensuring bar readiness before each match day.
+- <b>Trained junior bar staff</b> and assisted with managerial duties, including closing procedures.
+- Delivered <b>exceptional customer service</b> in a high-pressure environment while maintaining team morale and professionalism.
+- Stepped into <b>leadership roles</b> during manager absences, demonstrating reliability and initiative.</br></br>
 tags: N/A
-
 
 [project]
 id: ai-chatbot
 title: AI Powered Chatbot
 image: images/chatbot.png
 tags: Python, Tailwind CSS, HTML5, Flask, LlaMa, Ollama, OpenAI, Ai, SQLite3, JavaScript
-content: Built a <b>natural language chatbot</b> using <b>Flask</b> and multiple LLM providers including <b>OpenAI</b> and <b>Meta's LLaMA via Ollama</b>. Supports context retention, local or cloud inference, and uses <b>SQLite3</b> with a modern <b>Tailwind CSS</b> UI. Demonstrates proficiency in <b>AI APIs, prompt engineering, and LLM deployment</b>.
-
-
-[project]
-id: automation testing
-title: Weather Dashboard
-image: https://www.figma.com/community/resource/c5ab864c-3b63-4997-8366-38b4b9603d95/thumbnail
-tags: HTML, CSS, JavaScript, OpenWeatherMap API
-content: Interactive dashboard using <b>OpenWeatherMap API</b> with real-time weather data and enhanced UI.
-
+content: Built a <b>natural language chatbot</b> using <b>Flask</b> and <b>multiple LLM providers</b> including <b>OpenAI</b> and <b>Meta's LLaMA via Ollama</b>. The chatbot supports human-like conversation with context retention and can switch between local and cloud-based inference. Data is stored in <b>SQLite3</b> and rendered with a modern <b>Tailwind CSS</b> UI. Demonstrates my proficiency with <b>AI APIs, prompt engineering, and end-to-end LLM application deployment</b>.
 
 [project]
 id: spotify-wrapped
 title: Spotify Wrapped
 image: https://sm.pcmag.com/pcmag_uk/news/s/spotify-wr/spotify-wrapped-2023-how-to-see-the-songs-artists-you-listen_u92z.png
 tags: Flask, Tailwind CSS, HTML, JavaScript, Python
-content: Recreated Spotify Wrapped using Spotipy and Flask to visualize listening trends.
-
+content: Recreated Spotify Wrapped using Spotipy and Flask to visualize user listening trends.
 
 [project]
 id: sentiment-analyzer
 title: AI Sentiment Analyzer
 image: https://bigblue.academy/images/image/blog/sentiment-analysis/group-153.jpg
 tags: Python, NLTK, Flask, LlaMa, Ollama, OpenAI, Ai, SQLite3
-content: An AI-powered tool analyzing sentiment in user input and <b>Google Maps reviews</b>. Combines <b>LLMs</b>, <b>NLTK preprocessing</b>, <b>Flask</b>, and <b>SQLite3</b> with multithreading for performance.
-
+content: An AI-powered tool that analyzes real-time sentiment in user input and <b>Google Maps reviews</b>. Combines <b>LLMs like OpenAI and Meta's LLaMA</b> via <b>Ollama</b> with <b>NLP preprocessing</b> through NLTK. The application uses <b>Flask</b> for its backend, a lightweight <b>SQLite3 database</b> for session tracking, and multithreading for performance optimization. Ideal for exploring practical use cases of AI in real-time applications.
 
 [project]
 id: portfolio-site
 title: Portfolio Website
 image: images/portfolio site.png
 tags: Next.js, Tailwind CSS, HTML, JavaScript
-content: Built this <b>portfolio site</b> using <b>Next.js</b> and <b>Tailwind CSS</b> for a responsive and engaging layout.
+content: Built this <b>portfolio site</b> using <b>Next.js</b> and <b>Tailwind CSS</b> to showcase my professional experience, tech stack, and side projects in a responsive and visually engaging layout.
 
+[project]
+id: weather-dashboard
+title: Weather Dashboard
+image: https://www.figma.com/community/resource/c5ab864c-3b63-4997-8366-38b4b9603d95/thumbnail
+tags: HTML, CSS, JavaScript, OpenWeatherMap API
+content: Interactive weather dashboard built using <b>OpenWeatherMap API</b>. Displays real-time weather forecasts and conditions based on user-selected locations, complete with icons and UI enhancements.
 
 [project]
 id: student-management-system
 title: Student Management System
 image: https://www.springboard.com/blog/wp-content/uploads/2022/03/what-is-a-coding-project.png
 tags: Java, Java Gui
-content: A <b>Java-based student management system</b> with GUI, CRUD features, and basic authentication.
+content: Developed a <b>Java-based student management system</b> featuring a GUI for managing student records. Includes CRUD operations and <b>basic authentication</b>. Great example of combining data handling with user interfaces in Java.
