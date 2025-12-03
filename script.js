@@ -123,7 +123,7 @@ function injectContent(entries) {
   addShowMoreButton();
 }
 
-// ✅ NEW TAB INJECTION SYSTEM
+
 function injectTabbedExperience(experiences) {
   const container = document.querySelector("#experience-tabs");
   if (!container) return;
