@@ -8,8 +8,8 @@ title: Software Engineer, National Crime Agency (NCA)
 duration: <i>London, 2023 — 2024</i>
 intro: Developed internal tools for NCA officers using modern cloud technologies and Python-based systems. Worked in an <b>Agile environment</b> with <b>cross-functional teams</b> to build scalable, secure solutions for law enforcement operations.</br>
 responsibilities:
-- <b>Led retrospectives and team stand-ups</b> to align priorities and improve performance.
-- Conducted <b>project spikes</b> to investigate and prototype solutions using AWS services.
+- <b>Led retrospectives and team stand-ups</b> to align priorities and improve performance.</br>
+- Conducted <b>project spikes</b> to investigate and prototype solutions using AWS services.</br>
 - Implemented scalable applications with <b>AWS EC2, Lambda, S3, RDS, and VPC</b>, automating deployments using <b>Terraform</b> and <b>CloudFormation</b>.
 - Diagnosed and resolved issues across <b>cloud infrastructure</b>, <b>digital forensics platforms</b>, and <b>software pipelines</b>.
 - Collaborated with <b>designers, PMs, and QA teams</b> to deliver user-focused applications.</br></br>
