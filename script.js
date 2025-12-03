@@ -140,7 +140,7 @@ function injectTabbedExperience(experiences) {
   // Arrays to store inputs and content separately
   const inputs = [];
 
-  experiences.slice(0, 3).forEach((exp, idx) => {
+  experiences.slice(1, 3).forEach((exp, idx) => {
     const tabId = `tab${idx + 1}`;
     const contentId = `content${idx + 1}`;
 
